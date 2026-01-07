@@ -553,7 +553,7 @@ Repeat the instructions preceding question 22, but this time read up to
 
  26. What was the return value of `read()`?
 
- 27. Did the return value from read() match the `count` value passed in?  Why
+ 27. Did the return value from `read()` match the `count` value passed in?  Why
      or why not? (Hint: See the RETURN VALUE section in the man page for
      `read(2)`.)
 
