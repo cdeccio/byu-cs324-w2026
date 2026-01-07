@@ -115,12 +115,12 @@ question, you will need open specific man pages and look for specific content.
  1. What are the numbers associated with the manual sections for executable
     programs, system calls, and library calls, respectively?  Hint: See the
     DESCRIPTION section in the Section 1 (program) man page for `man`.
- 2. What file should be included in a C program with `#include` to use the
+ 2. Which file(s) should be included in a C program with `#include` to use the
     `open()` system call?
  3. What is the return value of a successful call to the `open()` system call?
  4. What is the return value of the `open()` system call when an error is
     encountered?
- 5. What files should be included in a C program with `#include` to use the
+ 5. Which file(s) should be included in a C program with `#include` to use the
     `close()` system call?
  6. What does the integer argument passed to `close()` system call represent?
     Hint: the argument name is abbreviation for these two words.
