@@ -79,8 +79,7 @@ void part3(char *filename) {
 
 	printf("-- Question 14\n");
 
-	fprintf(stderr, "-- Questions 15 through 18 (stderr)\n");
-	fprintf(stdout, "-- Questions 15 through 18 (stdout)\n");
+	fprintf(stderr, "-- Questions 15 through 18\n");
 
 	printf("-- Question 19\n");
 	int fd1, fd2;
