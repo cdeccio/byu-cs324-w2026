@@ -617,9 +617,9 @@ earlier, output associated with `write()` is not buffered.  File streams
 Using that knowledge, add the following code to experiment with buffering.  Use
 `fprintf()` to print the following, in order:
 
- a. `"abc"` (no newline) to standard output (`stdout`)
- b. `"def"` (no newline) to standard error (`stderr`)
- c. `"ghi\n"` to standard output (`stdout`)
+ - `"abc"` (no newline) to standard output (`stdout`)
+ - `"def"` (no newline) to standard error (`stderr`)
+ - `"ghi\n"` to standard output (`stdout`)
 
 Based on the explanation above, what do you expect the output to be?
 
