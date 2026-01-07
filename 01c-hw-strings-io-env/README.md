@@ -681,23 +681,25 @@ environment of the running shell.
 Compile `exercises.c`.  Then run the program according to the following:
 
 ```bash
-# Use default environment
+# 1. Use default environment
 ./exercises test.txt
 
 # Set environment var for One-time use
 CS324_VAR=foo ./exercises test.txt
 
-# Add variable to environment of running shell
+# 2. Add variable to environment of running shell
 export CS324_VAR=foo
 
-# Use modified environment
+# 3. Use modified environment
 ./exercises test.txt
 ```
 
- 42. What is the difference between running the three commands?  Briefly
-     explain.
+ 42. Which of the three commands above resulted in:
+     "CS324\_VAR is \_\_\_\_" being output?
 
- 43. (Upload your edited `exercises.c` file to LearningSuite.)
+ 43. If command 3 were executed again, what would be the output?
+
+ 44. (Upload your edited `exercises.c` file to LearningSuite.)
 
 
 ### Summary and Main Points
