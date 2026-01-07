@@ -257,14 +257,15 @@ ASCII character (i.e., format `"%c"`).
 Compile and run `exercises.c`.  Use the output to answer the following
 questions.
 
- 1. What is the integer value of the ASCII letter `'o'`, in decimal notation?
+ 1. What is the integer value of the ASCII letter `'o'` (lower-case letter
+    "o"), in _decimal_ notation?
 
- 2. What is the integer value of the ASCII letter `'o'`, in hexadecimal
-    notation?
+ 3. What is the integer value of the ASCII letter `'o'` (lower-case letter
+    "o"), in _hexadecimal_ notation?
 
- 3. What is the ASCII character associated with the (hexadecimal) value 0x6c?
+ 5. What is the ASCII character associated with the (hexadecimal) value 0x6c?
 
- 4. What is the decimal representation of the (hexadecimal) value 0x6c?
+ 6. What is the decimal representation of the (hexadecimal) value 0x6c?
 
 Add some C code to answer the following questions.  Then re-compile and run
 `./exercises`.  See also the man page for `ascii(7)`.
