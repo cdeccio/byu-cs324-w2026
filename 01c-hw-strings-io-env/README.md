@@ -633,10 +633,9 @@ Compile and run `exercises.c`.
 
  39. What is the order of the letters? (Exclude the newline.)
 
- 40. What differences do you observe in the output of the strings using
-     `fprintf()` vs. using `write()` and why?  (Hint: See
-     [intro](#printf-and-friends) and the "NOTES" section of the man page for
-     `stdout(3)`.)
+ 40. What do you observe about buffering with `fprintf()` and `write()?`
+     (Hint: See [intro](#printf-and-friends) and the "NOTES" section of the
+     man page for `stdout(3)`.)
 
 The `fflush()` function will immediately flush any buffered output of the
 specified file stream.  Repeat the instructions preceding question 38.
