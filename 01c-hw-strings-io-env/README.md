@@ -633,7 +633,7 @@ Compile and run `exercises.c`.
 
  39. What is the order of the letters? (Exclude the newline.)
 
- 40. What do you observe about buffering with `fprintf()` and `write()?`
+ 40. What do you observe about buffering with `fprintf()` and `write()`?
      (Hint: See [intro](#printf-and-friends) and the "NOTES" section of the
      man page for `stdout(3)`.)
 
