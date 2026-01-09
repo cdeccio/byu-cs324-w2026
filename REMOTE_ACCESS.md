@@ -37,11 +37,10 @@ on remotely, please follow these instructions.
     VPN, you can access either an _arbitrary_ or a _specific_ CS lab machine
     remotely over SSH.
 
-> [!TIP]
-> Whether you log in to an arbitrary or a specific CS lab machine, your
-> username will be your BYU CS username and password.  If you are unsure
-> of your username and password, please visit
-> [this page](https://support.cs.byu.edu/KB/View/84256290-cs-accounts).
+    NOTE: Whether you log in to an arbitrary or a specific CS lab machine, your
+    username will be your BYU CS username and password.  If you are unsure
+    of your username and password, please visit
+    [this page](https://support.cs.byu.edu/KB/View/84256290-cs-accounts).
 
     - *Arbitrary lab machine.*  You can log on to an _arbitrary_ CS lab machine
       remotely over SSH by running the following from a terminal on your
@@ -79,10 +78,9 @@ on remotely, please follow these instructions.
       ssh username@hostname
       ```
 
-> [!TIP]
-> Note that your home directory is shared across all lab machines (using the
-> network file server or NFS), so you can access the files in your home
-> directory no matter which lab machine you log on to.
+    Note that your home directory is shared across all lab machines (using the
+    network file server or NFS), so you can access the files in your home
+    directory no matter which lab machine you log on to.
 
     In addition to remote terminal access with the `ssh` command, you can also
     use `scp` (for copying files securely) and VS Code with the SSH Remote
