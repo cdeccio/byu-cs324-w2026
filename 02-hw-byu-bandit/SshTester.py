@@ -92,7 +92,8 @@ class Student:
                 print(f'\tPassword Check: Passed')
                 score += 1
 
-                if test.level == 7:
+                if test.level == 8:
+                    # We don't test the actual pipeline for level 8, only the password
                     pass
                 else:
                     if test.cmd.find(";") != -1 or test.cmd.find("&&") != -1:

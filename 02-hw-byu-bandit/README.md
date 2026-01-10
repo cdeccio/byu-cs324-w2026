@@ -52,8 +52,8 @@ Follow these steps:
     output.  Save both the password and the output.  See below for helps and
     examples.
 
-    Note that for the command used to obtain the password for Level 8 (i.e., as
-    the `bandit7` user), a pipeline does not make sense.  Just include the
+    Note that for the command used to obtain the password for Level 9 (i.e., as
+    the `bandit8` user), a pipeline does not make sense.  Just include the
     first command used.
 
  5. Close out your session to log out of `imaal.byu.edu` (`ctrl`+`d` or
@@ -82,7 +82,7 @@ Follow these steps:
     is the pipeline used to obtain that password in Level 0 (i.e., as the
     `bandit0` user), etc.
 
-    We remind you that the pipeline used to obtain the password for Level 8
+    We remind you that the pipeline used to obtain the password for Level 9
     does not require any more than a single command. You do not need to include
     what you did to suspend and resume, but you must include the initial
     command.
